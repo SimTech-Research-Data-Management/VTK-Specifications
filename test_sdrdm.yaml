@@ -1,27 +1,35 @@
+id: vtkfile0
 type: UnstructuredGrid
 version: '0.1'
 byte_order: LittleEndian
 unstructured_grid:
+  id: unstructuredgrid0
   piece:
+    id: piece0
+    number_of_points: 1
+    number_of_cells: 1
     points:
-      - type: Float64
+      - id: dataarray1
+        type: Float64
+        name: Points
         format: ascii
     point_data:
-      - type: Int64
-        format: ascii
-      - type: Float64
+      - id: dataarray0
+        type: Int64
+        name: point_index
         format: ascii
     cells:
-      - type: Int64
-        format: ascii
-      - type: Int64
-        format: ascii
-      - type: Int64
+      - id: dataarray2
+        type: Int64
+        name: connectivity
         format: ascii
     cell_data:
-      - type: Int64
-        format: ascii
-      - type: Float64
+      - id: dataarray3
+        type: Int64
+        name: point_index
         format: ascii
 __source__:
   root: VTKFile
+  repo: https://github.com/SimTech-Research-Data-Management/VTK-Specifications.git
+  commit: 0d029014d55366ea8b1d75b7a1a5beecec4f4a2b
+  url: https://github.com/SimTech-Research-Data-Management/VTK-Specifications/tree/0d029014d55366ea8b1d75b7a1a5beecec4f4a2b

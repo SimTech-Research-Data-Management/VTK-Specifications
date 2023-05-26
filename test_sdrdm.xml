@@ -1,22 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian">
-  <UnstructuredGrid>
-    <Piece>
+<VTKFile id="vtkfile0" type="UnstructuredGrid" version="0.1" byte_order="LittleEndian" repo="https://github.com/SimTech-Research-Data-Management/VTK-Specifications.git" commit="0d029014d55366ea8b1d75b7a1a5beecec4f4a2b" url="https://github.com/SimTech-Research-Data-Management/VTK-Specifications/tree/0d029014d55366ea8b1d75b7a1a5beecec4f4a2b">
+  <UnstructuredGrid id="unstructuredgrid0">
+    <Piece id="piece0" NumberOfPoints="1" NumberOfCells="1">
       <Points>
-        <DataArray type="Float64" format="ascii"/>
+        <DataArray id="dataarray1" type="Float64" Name="Points" format="ascii"/>
       </Points>
       <PointData>
-        <DataArray type="Int64" format="ascii"/>
-        <DataArray type="Float64" format="ascii"/>
+        <DataArray id="dataarray0" type="Int64" Name="point_index" format="ascii"/>
       </PointData>
       <Cells>
-        <DataArray type="Int64" format="ascii"/>
-        <DataArray type="Int64" format="ascii"/>
-        <DataArray type="Int64" format="ascii"/>
+        <DataArray id="dataarray2" type="Int64" Name="connectivity" format="ascii"/>
       </Cells>
       <CellData>
-        <DataArray type="Int64" format="ascii"/>
-        <DataArray type="Float64" format="ascii"/>
+        <DataArray id="dataarray3" type="Int64" Name="point_index" format="ascii"/>
       </CellData>
     </Piece>
   </UnstructuredGrid>
