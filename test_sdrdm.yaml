@@ -1,0 +1,27 @@
+type: UnstructuredGrid
+version: '0.1'
+byte_order: LittleEndian
+unstructured_grid:
+  piece:
+    points:
+      - type: Float64
+        format: ascii
+    point_data:
+      - type: Int64
+        format: ascii
+      - type: Float64
+        format: ascii
+    cells:
+      - type: Int64
+        format: ascii
+      - type: Int64
+        format: ascii
+      - type: Int64
+        format: ascii
+    cell_data:
+      - type: Int64
+        format: ascii
+      - type: Float64
+        format: ascii
+__source__:
+  root: VTKFile
