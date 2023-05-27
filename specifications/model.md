@@ -2,12 +2,11 @@
 
 *This is a prototype implementation of an sdRDM markdown version of a VTK file.*
 
-- [VTK Schema](#vtk-schema)
-  - [Specifications](#specifications)
-    - [VTKFile](#vtkfile)
-    - [UnstructuredGrid](#unstructuredgrid)
-    - [Piece](#piece)
-    - [DataArray](#dataarray)
+- [Specifications](#specifications)
+  - [VTKFile](#vtkfile)
+  - [UnstructuredGrid](#unstructuredgrid)
+  - [Piece](#piece)
+  - [DataArray](#dataarray)
 
 
 A VTK file refers to a file format used in the field of scientific visualization and computer graphics. VTK stands for Visualization Toolkit, which is an open-source software system developed by Kitware Inc. The VTK file format is specifically designed to store and exchange data related to 3D computer graphics, including geometric models, volumetric data, and various attributes associated with the data.
